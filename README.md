@@ -56,7 +56,7 @@ tonelog('pink', 'Logging is fun')
 tonelog('invisible', 'Invisible logging')
 ```
 
-## This project is licensed under the MIT License. See the LICENSE file for details.
+### This project is licensed under the MIT License. See the [LICENSE file](https://github.com/Sydney205/tonelog/LICENSED.md) for details.]
 
 ### Author 📝
 [**Sydney205 🖐️**](https://github.com/Sydney205)
