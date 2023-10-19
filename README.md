@@ -11,7 +11,7 @@ A lightweight, user-friendly color logging package for your node projects.
 
 ## Installation 📦
 
-You can install this package using pip:
+You can install this package using npm:
 
 ```bash
 npm install tonelog
@@ -24,8 +24,9 @@ Require the package in your node project:
 ```js
 const tonelog = require("tonelog")
 ```
-## Available Log Colors 📊
-The function takes in two parameters
+## Available Log Levels 📊
+The function takes in two parameters, the level and the log message: tonelog(level, message)
+
 - success
 ```js
 tonelog('success', 'Success message')
@@ -58,6 +59,6 @@ tonelog('invisible', 'Invisible logging')
 ## This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Author 📝
-[**Sydney 🖐️**](https://github.com/Sydney205)
+[**Sydney205 🖐️**](https://github.com/Sydney205)
 
 Feel free to contribute, report issues, or provide feedback! Enjoy beautiful colorful logging in your Nodejs projects! 🎨
