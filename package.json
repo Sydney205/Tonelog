@@ -1,7 +1,7 @@
 {
-  "name": "tintlog",
+  "name": "tonelog",
   "version": "1.0.0",
-  "description": "A CLI tool for coloured printing",
+  "description": "A colorful logging CLI tool for Nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sydney205/crayon.git"
+    "url": "git+https://github.com/Sydney205/tonelog.git"
   },
   "bugs": {
-    "url": "https://github.com/Sydney205/crayon/issues"
+    "url": "https://github.com/Sydney205/tonelog/issues"
   },
-  "homepage": "https://github.com/Sydney205/crayon#readme"
+  "homepage": "https://github.com/Sydney205/tonelog#readme"
 }
