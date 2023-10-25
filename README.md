@@ -59,6 +59,6 @@ tonelog('invisible', 'Invisible logging')
 ### This project is licensed under the MIT License. See the [LICENSE file](https://github.com/Sydney205/tonelog/LICENSED.md) for details.]
 
 ### Author 📝
-[**Sydney205 🐱‍🚀**](https://github.com/Sydney205)
+- [**Sydney205 🐱‍🚀**](https://github.com/Sydney205)
 
 Feel free to contribute, report issues, or provide feedback! Enjoy beautiful colorful logging in your Nodejs projects! 🎨
