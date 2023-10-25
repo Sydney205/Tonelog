@@ -43,18 +43,6 @@ tonelog('warning', 'warning message')
 ```js
 tonelog('info', 'info message')
 ```
-- blue
-```js
-tonelog('blue', 'This log is on color blue')
-```
-- pink
-```js
-tonelog('pink', 'Logging is fun')
-```
-- invisible
-```js
-tonelog('invisible', 'Invisible logging')
-```
 
 Other colors are shown below:
 
@@ -141,7 +129,7 @@ tonelog('bg_green', 'green background')
 - pale_pink
 - deep_purple
 
-#### This project is licensed under the MIT License. See the [LICENSE file](./LICENSED.md) for details.]
+#### This project is licensed under the MIT License. See the [LICENSE file](./LICENSED.md) for details.
 
 ### Author 📝
 - [**Sydney205 🐱‍🚀**](https://github.com/Sydney205)
