@@ -17,13 +17,13 @@ You can install this package using npm:
 npm install tonelog
 ```
 
-
 ## Usage 🤓
 Require the package in your node project:
 
 ```js
 const tonelog = require("tonelog")
 ```
+
 ## Available Log Levels 📊
 The function takes in two parameters, the level and the log message: tonelog(level, message)
 
@@ -54,6 +54,36 @@ tonelog('pink', 'Logging is fun')
 - invisible
 ```js
 tonelog('invisible', 'Invisible logging')
+```
+
+Other colors are shown below:
+
+```js
+tonelog('red', 'red log')
+```
+```js
+tonelog('green', 'green log')
+```
+```js
+tonelog('magenta', 'magenta log')
+```
+```js
+tonelog('cyan', 'cyan log')
+```
+```js
+tonelog('yellow', 'yellow log')
+```
+
+You can also log text with a background color, by just adding 'b' before the color name:
+
+```js
+tonelog('bred', 'red background')
+```
+```js
+tonelog('berror', 'error with red background')
+```
+```js
+tonelog('byellow', 'yellow background')
 ```
 
 ### This project is licensed under the MIT License. See the [LICENSE file](https://github.com/Sydney205/tonelog/LICENSED.md) for details.]
