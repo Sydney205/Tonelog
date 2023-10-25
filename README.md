@@ -7,6 +7,7 @@ A lightweight, user-friendly color logging package for your node projects.
 - Easily add colored log messages to your code.
 - Customize log message formatting.
 - Supports various log levels (info, warning, error, etc.).
+- Log message with background color
 - Beautiful, colorful output for enhanced readability.
 
 ## Installation 📦
