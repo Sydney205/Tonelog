@@ -1,0 +1,13 @@
+Tonelog is a color logging package for Nodejs.
+
+with features like: 
+    * Easily add colored log message to your code
+    * Log message with background color
+    * Display current timestamp of log message
+    * Supports log levels (success, info, error...)
+    * Super cool log typing effect
+
+Install tonelog using npm: npm i tonelog
+
+
+Check out the README.md file for more info
