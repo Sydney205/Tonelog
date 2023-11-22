@@ -62,8 +62,6 @@ const colors = {
   chocolate_brown: "\x1B[38;5;52m",
   pale_pink: "\x1B[38;5;211m",
   deep_purple: "\x1B[38;5;53m",
-
-  invisible: "\x1B[30m",
 };
 
 const addColor = (color, message) => {
