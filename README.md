@@ -163,6 +163,25 @@ console.log(
 ```js
 const { typed } = require("tonelog");
 
+const myArray = [
+  "This is the first string on the array",
+  "This is the second string on the array",
+  "This is the third string on the array",
+];
+
+typed(
+  myArray,
+  1000, // delay time before typing
+  70, // Adjust typing speed in milliseconds
+  50 // Adjust backspacing speed in milliseconds
+);
+```
+
+- To log a message after the typing is completed, it is recommended to use the typed function inside of a an async function
+  
+```js
+const { typed } = require("tonelog");
+
 const typing = async () => {
   const myArray = [
     "This is the first string on the array",
@@ -173,9 +192,9 @@ const typing = async () => {
   // Typing...
   await typed(
     myArray,
-    1000, // delay time before typing
-    70, // Adjust typing speed in milliseconds
-    50 // Adjust backspacing speed in milliseconds
+    1000,
+    70,
+    50
   );
   console.log("Typing is complete");
 };
@@ -183,7 +202,8 @@ const typing = async () => {
 typing();
 ```
 
-### or
+### or Using ".finanlly()" 
+The function returns a promise and ".finanlly()" handles code to be executed after the promise is settled.
 
 ```js
 const { typed } = require("tonelog");
