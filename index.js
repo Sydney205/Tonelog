@@ -1,6 +1,14 @@
+/**
+ * @module tonelog
+ */
+
+
 const { colors, addColor, logLevels } = require("./styles");
 
-// using color Log
+/**
+ * Creating a color log object with methods for all color.
+ * @returns { Object } - Color log methods.
+ */
 const colorLog = () => {
   const colorList = {};
 
@@ -15,13 +23,24 @@ const colorLog = () => {
 
 const tone = colorLog();
 
-// Using Timestamp
+
+
+/**
+ * Adds the current timestamp to the provided message.
+ * @param { string } message - The log message.
+ * @returns { string } - The log message with a timestamp.
+ */
 const useTimestamp = (message) => {
   let timestamp = new Date().toLocaleTimeString();
   return `${tone.bright_white(`[${timestamp}]`)} - ${message}`;
 };
 
-// create Log levels
+
+
+/**
+ * Creating a log method for different log levels.
+ * @returns { Object } - Log methods for each level.
+ */
 const createLevelLog = () => {
   let Options = {};
 
@@ -37,7 +56,16 @@ const createLevelLog = () => {
 
 const toneLevel = createLevelLog();
 
-// Typing effect
+
+
+/**
+ * Typing effect on logging.
+ * @param { string[] } strings - Array of strings to type.
+ * @param { number } [delay=1000] - Delay before starting to type.
+ * @param { number } [typeSpeed=50] - Speed of typing characters.
+ * @param { number } [backspaceSpeed=50] - Speed of backspacing characters.
+ * @returns { Promise } - Promise resolved when typing is complete.
+ */
 const typed = (
   strings = [],
   delay = 1000,
@@ -97,7 +125,12 @@ const typed = (
   });
 };
 
-// Old Style
+/**
+ * Logs a message with a specified color.
+ * @type {Function}
+ * @param {string} color - The color of the log message.
+ * @param {string} message - The log message.
+ */
 function tonelog(color, message) {
   console.log(`${colors[color]}${message}${colors.reset}`);
 }
