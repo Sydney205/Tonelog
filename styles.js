@@ -1,3 +1,5 @@
+// Styles object and arrays of colors and levels
+
 const colors = {
   // Semantic color names
   error: "\x1B[31m", // red
@@ -72,7 +74,6 @@ const logLevels = ["success", "info", "warning", "error"];
 
 module.exports = {
   ...colors,
-  ...styles,
   colors,
   logLevels,
   addColor,
