@@ -2,7 +2,6 @@
  * @module tonelog
  */
 
-
 const { colors, addColor, logLevels } = require("./styles");
 
 /**
@@ -64,7 +63,7 @@ const toneLevel = createLevelLog();
  * @param { number } [delay=1000] - Delay before starting to type.
  * @param { number } [typeSpeed=50] - Speed of typing characters.
  * @param { number } [backspaceSpeed=50] - Speed of backspacing characters.
- * @returns { Promise } - Promise resolved when typing is complete.
+ * @returns { Promise }
  */
 const typed = (
   strings = [],
@@ -100,7 +99,7 @@ const typed = (
                     if (counter == 0) {
                       clearInterval(backspaceInterval);
 
-                      // Moving on to the next string
+                      // Type next string
                       index++;
                       startTyping();
                     }
@@ -126,8 +125,8 @@ const typed = (
 };
 
 /**
- * Logs a message with a specified color.
- * @type {Function}
+ * Legacy Code
+ * Logs a message with the color specified.
  * @param {string} color - The color of the log message.
  * @param {string} message - The log message.
  */
