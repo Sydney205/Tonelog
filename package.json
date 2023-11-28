@@ -1,6 +1,6 @@
 {
   "name": "tonelog",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Lightweight color logging package for Nodejs.",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "color",
     "logging",
     "nodejs",
-    "typing",
-    "tonelog"
+    "typing effect"
   ],
   "author": "sydney205",
   "license": "MIT",
