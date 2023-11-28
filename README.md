@@ -9,6 +9,7 @@ A Lightweight color logging package for Nodejs.
 - 📊 Supports log levels (success, info, warning, error).
 - ⚡ Typing effect on logging.
 
+
 ## Installation 📦
 
 Install tonelog using npm:<br>
