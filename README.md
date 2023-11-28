@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold; font-size: 4rem; margin-right: 1rem;">T<span style="font-size: 3rem; color: #f65;">⚙</span>nelog <span style="font-weight: 100; font-size: 2rem">2.0.1</span></h1>
+<h1 align="center" style="font-weight: bold; font-size: 4rem; margin-right: 1rem;">T<span style="font-size: 3rem; color: #f65;">⚙</span>nelog</h1>
 
 A Lightweight color logging package for Nodejs.
 
