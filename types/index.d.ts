@@ -1,5 +1,5 @@
 declare module "tonelog" {
-  /**
+/**
    * Color and log levels interface
    */
   interface ColorMethods {
